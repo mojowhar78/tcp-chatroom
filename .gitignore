@@ -1,0 +1,11 @@
+# executables
+server
+client
+test
+test_ui
+
+# object files
+*.o
+
+# vscode
+.vscode/
