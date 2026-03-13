@@ -1,4 +1,4 @@
-# TTTALK - TCP Chatroom
+# TTYALK - TCP Chatroom
 
 A lightweight, feature-rich TCP chatroom application built in C with an interactive **ncurses-based user interface** for real-time communication between multiple users over a network.
 
