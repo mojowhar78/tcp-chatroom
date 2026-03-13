@@ -117,8 +117,6 @@ The ncurses client provides an intuitive split-window interface:
 
 ## Limitations & Future Improvements
 
-- [ ] User authentication and login
-- [ ] Private messaging between users
 - [ ] Message history/logging
 - [ ] User list display with nicknames
 - [ ] Graceful shutdown handlers
@@ -127,14 +125,6 @@ The ncurses client provides an intuitive split-window interface:
 - [ ] Emoji and unicode support
 - [ ] Auto-reconnect on connection loss
 
-## Testing
-
-Run the test suite:
-
-```bash
-gcc -o test test.c -lncurses
-./test
-```
 
 ## Contributing
 
