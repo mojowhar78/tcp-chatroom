@@ -70,17 +70,17 @@ Connects to a chatroom server with an interactive ncurses UI at the specified ho
 
 **Terminal 1 (Server):**
 ```bash
-./tttalk -s 9090
+./ttyalk -s 9090
 ```
 
 **Terminal 2 (Client 1):**
 ```bash
-./tttalk -c localhost 9090
+./ttyalk -c localhost 9090
 ```
 
 **Terminal 3 (Client 2):**
 ```bash
-./tttalk -c localhost 9090
+./ttyalk -c localhost 9090
 ```
 
 ## User Interface
