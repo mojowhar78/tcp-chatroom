@@ -1,4 +1,4 @@
-# TTYALK - TCP Chatroom
+# TTYTALK - TCP Chatroom
 
 A lightweight, feature-rich TCP chatroom application built in C with an interactive **ncurses-based user interface** for real-time communication between multiple users over a network.
 
@@ -39,7 +39,7 @@ brew install ncurses
 Compile the project using:
 
 ```bash
-gcc -o tttalk *.c -lncurses
+gcc -o ttytalk *.c -lncurses
 ```
 
 Or if a Makefile is available:
@@ -53,7 +53,7 @@ make
 ### Starting the Server
 
 ```bash
-./tttalk -s [port]
+./ttytalk -s [port]
 ```
 
 Starts the chatroom server on the specified port (default: 9090).
@@ -61,7 +61,7 @@ Starts the chatroom server on the specified port (default: 9090).
 ### Connecting as a Client
 
 ```bash
-./tttalk -c [hostname] [port]
+./ttytalk -c [hostname] [port]
 ```
 
 Connects to a chatroom server with an interactive ncurses UI at the specified hostname and port.
@@ -70,17 +70,17 @@ Connects to a chatroom server with an interactive ncurses UI at the specified ho
 
 **Terminal 1 (Server):**
 ```bash
-./ttyalk -s 9090
+./ttytalk -s 9090
 ```
 
 **Terminal 2 (Client 1):**
 ```bash
-./ttyalk -c localhost 9090
+./ttytalk -c localhost 9090
 ```
 
 **Terminal 3 (Client 2):**
 ```bash
-./ttyalk -c localhost 9090
+./ttytalk -c localhost 9090
 ```
 
 ## User Interface
